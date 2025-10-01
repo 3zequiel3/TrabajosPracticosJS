@@ -1,9 +1,3 @@
-// 📝 Trabajo Práctico: "Algoritmia con Arrays y Strings"
-// Autor: [Tu nombre]
-// Fecha: 30 de septiembre de 2025
-
-console.log("=== TRABAJO PRÁCTICO: ALGORITMIA CON ARRAYS Y STRINGS ===\n");
-
 // 1️⃣ CREAR UN ARRAY DE PALABRAS
 console.log("1️⃣ CREANDO ARRAY DE PALABRAS");
 console.log("----------------------------");
@@ -125,5 +119,3 @@ console.log(`Cantidad de palabras con más de 4 caracteres: ${palabrasLargas}`);
 // Crear un string con todas las palabras unidas por "-"
 let palabrasUnidas = palabras.join("-");
 console.log(`Todas las palabras unidas por guiones: "${palabrasUnidas}"`);
-
-console.log("\n=== FIN DEL TRABAJO PRÁCTICO ===");

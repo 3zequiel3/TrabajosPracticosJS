@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 4 - JavaScript Funciones, Objetos, DOM y Eventos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="titulo">TP 4 - JavaScript Avanzado</h1>
+        
+        <div class="punto">
+            <h2>Punto 1: Funciones declarativas y expresadas</h2>
+            <button onclick="testearFunciones()">Probar Funciones</button>
+            <div id="resultado-funciones"></div>
+        </div>
+
+        <div class="punto">
+            <h2>Punto 2: Arrow Functions</h2>
+            <button onclick="testearArrowFunction()">Probar Arrow Function</button>
+            <div id="resultado-arrow"></div>
+        </div>
+
+        <div class="punto">
+            <h2>Punto 3: Objeto Persona</h2>
+            <button onclick="testearObjeto()">Probar Objeto</button>
+            <div id="resultado-objeto"></div>
+        </div>
+
+        <div class="punto">
+            <h2>Punto 4: Desestructuración</h2>
+            <button onclick="testearDesestructuracion()">Probar Desestructuración</button>
+            <div id="resultado-desestructuracion"></div>
+        </div>
+
+        <div class="punto">
+            <h2>Punto 5: Spread/Rest</h2>
+            <button onclick="testearSpreadRest()">Probar Spread/Rest</button>
+            <div id="resultado-spread"></div>
+        </div>
+
+        <div class="punto">
+            <h2>Punto 6: Lista de Tareas</h2>
+            <ul id="lista-tareas">
+                <li>Tarea inicial 1</li>
+                <li>Tarea inicial 2</li>
+                <li>Tarea inicial 3</li>
+            </ul>
+            <button onclick="manipularDOM()">Manipular DOM</button>
+        </div>
+
+        <div class="punto">
+            <h2>Punto 7: Eventos Click e Input</h2>
+            <input type="text" id="input-tarea" placeholder="Escribe una nueva tarea...">
+            <button id="btn-agregar">Agregar Tarea</button>
+        </div>
+
+        <div class="punto">
+            <h2>Punto 8: Formulario con preventDefault</h2>
+            <form id="formulario">
+                <input type="text" id="input-formulario" placeholder="Escribe algo..." required>
+                <button type="submit">Enviar Formulario</button>
+            </form>
+            <div id="mensaje-formulario"></div>
+        </div>
+
+        <div class="punto">
+            <h2>Punto 9: Eventos keydown y change</h2>
+            <input type="text" id="input-enter" placeholder="Presiona Enter para agregar...">
+            <br>
+            <select id="selector">
+                <option value="">Selecciona una opción</option>
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+            </select>
+            <p id="seleccion-actual">Ninguna opción seleccionada</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
